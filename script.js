@@ -18,7 +18,7 @@ var checkDead = setInterval(function() {
         if (blockLeft < 20 && blockLeft > 0 && characterTop >= 130) {
             block.style.animation = "none";
             block.style.display = "none";
-            alert("You are not the greatest man that ever lived :(");
+            alert("You are not the greatest man that ever lived :( refresh page to play again");
         }
     },
     10);
